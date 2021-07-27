@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'Myriadpro-bold-condensed';
+    src: url('../fonts/MYRIADPRO-BOLDCOND.OTF');
+}
+@font-face {
+    font-family: 'Myriadpro-semibold';
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.OTF');
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.OTF') format('embedded-opentype'),
+    url('../fonts/MYRIADPRO-SEMIBOLD.OTF?#iefix') format('otf');
+}
+
+body {
+    font-family: 'Myriadpro-bold-condensed', Fallback, sans-serif;
+}
